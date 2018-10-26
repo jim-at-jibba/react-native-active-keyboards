@@ -4,18 +4,18 @@ This is a simple module to let you determine if a specific keyboard is installed
 
 ## Getting started
 
-`$ npm install react-native-react-native-active-keyboards --save`
+`$ npm install react-native-active-keyboards --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-react-native-active-keyboards`
+`$ react-native link react-native-active-keyboards`
 
 ### Manual installation
 
 #### iOS
 
 1.  In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2.  Go to `node_modules` ➜ `react-native-react-native-active-keyboards` and add `RNReactNativeActiveKeyboards.xcodeproj`
+2.  Go to `node_modules` ➜ `react-native-active-keyboards` and add `RNReactNativeActiveKeyboards.xcodeproj`
 3.  In XCode, in the project navigator, select your project. Add `libRNReactNativeActiveKeyboards.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 4.  Run your project (`Cmd+R`)<
 
@@ -28,18 +28,18 @@ This is a simple module to let you determine if a specific keyboard is installed
 
 2.  Append the following lines to `android/settings.gradle`:
     ```
-    include ':react-native-react-native-active-keyboards'
-    project(':react-native-react-native-active-keyboards').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-react-native-active-keyboards/android')
+    include ':react-native-active-keyboards'
+    project(':react-native-active-keyboards').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-active-keyboards/android')
     ```
 3.  Insert the following lines inside the dependencies block in `android/app/build.gradle`:
     ```
-      compile project(':react-native-react-native-active-keyboards')
+      compile project(':react-native-active-keyboards')
     ```
 
 ## Usage
 
 ```javascript
-import { keyboardEnabled } from "react-native-react-native-active-keyboards";
+import { keyboardEnabled } from "react-native-active-keyboards";
 
 [...]
   async componentWillMount() {
