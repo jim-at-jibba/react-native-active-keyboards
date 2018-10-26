@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-react-native-active-keyboards.git",
-    "baseUrl": "https://github.com/github_account/react-native-react-native-active-keyboards"
+    "url": "git+https://github.com/jim-at-jibba/react-native-active-keyboards",
+    "baseUrl": "https://github.com/jim-at-jibba/react-native-active-keyboards"
   },
   "keywords": [
     "react-native"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "James Best",
+    "email": "jim@justjibba.net"
   },
   "license": "Apache-2.0",
   "licenseFilename": "LICENSE",
