@@ -4,8 +4,11 @@ import _ from "lodash";
 const { RNReactNativeActiveKeyboards } = NativeModules;
 
 export const keyboardEnabled = async key => {
-  console.log("KEY", key);
   try {
+    if (key === undefined) {
+      throw new Error("React Native Active Keyboard:: Keyboard Id is required");
+    }
+
     const keyboards = await RNReactNativeActiveKeyboards.keyboardEnabled();
     if (Platform.OS === "android") {
       if (keyboards.indexOf(key) !== -1) {

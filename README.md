@@ -43,6 +43,7 @@ import { keyboardEnabled } from "react-native-react-native-active-keyboards";
 
 [...]
   async componentWillMount() {
+    // @param keyboardId
     const enabled = await keyboardEnabled("keyboardName");
     console.log("IN APP", enabled);
   }
