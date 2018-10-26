@@ -1,5 +1,7 @@
 # react-native-react-native-active-keyboards
 
+This is a simple module to let you determine if a specific keyboard is installed. Particularly useful if you have created your own custom keyboard.
+
 ## Getting started
 
 `$ npm install react-native-react-native-active-keyboards --save`
@@ -39,6 +41,10 @@
 ```javascript
 import { keyboardEnabled } from "react-native-react-native-active-keyboards";
 
-// TODO: What to do with the module?
-RNReactNativeActiveKeyboards;
+[...]
+  async componentWillMount() {
+    const enabled = await keyboardEnabled();
+    console.log("IN APP", enabled);
+  }
+[...]
 ```
