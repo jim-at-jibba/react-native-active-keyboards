@@ -4,6 +4,7 @@ import _ from "lodash";
 const { RNReactNativeActiveKeyboards } = NativeModules;
 
 export const keyboardEnabled = async key => {
+  console.log("KEY", key);
   try {
     const keyboards = await RNReactNativeActiveKeyboards.keyboardEnabled();
     if (Platform.OS === "android") {
