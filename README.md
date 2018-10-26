@@ -1,4 +1,4 @@
-# react-native-react-native-active-keyboards
+# react-native-react-native-active-keyboards [![Node version](https://img.shields.io/node/v/react-native-active-keyboards.svg?style=flat)](http://nodejs.org/download/)
 
 This is a simple module to let you determine if a specific keyboard is installed. Particularly useful if you have created your own custom keyboard.
 
