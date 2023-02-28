@@ -23,5 +23,10 @@ RCT_REMAP_METHOD(keyboardEnabled,
     
 }
 
++ (BOOL)requiresMainQueueSetup
+{
+  return YES;
+}
+
 @end
   
