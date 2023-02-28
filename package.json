@@ -2,7 +2,7 @@
   "name": "react-native-active-keyboards",
   "title": "React Native Active Keyboards",
   "version": "0.0.8",
-  "description": "",
+  "description": "This is a simple module to let you determine if a specific keyboard is installed. Particularly useful if you have created your own custom keyboard.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
