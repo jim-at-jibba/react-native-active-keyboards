@@ -25,12 +25,12 @@
   "peerDependencies": {
     "react": "18.1.0",
     "react-native": "0.70.4",
-    "react-native-windows": "0.70.12",
+    "react-native-windows": "0.70.12"
   },
   "devDependencies": {
     "react": "18.1.0",
     "react-native": "0.70.4",
-    "react-native-windows": "0.70.12",
+    "react-native-windows": "0.70.12"
   },
   "dependencies": {
     "lodash": "^4.17.11"
