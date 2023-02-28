@@ -23,14 +23,14 @@
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
-    "react": "16.0.0-alpha.6",
-    "react-native": "^0.44.1",
-    "react-native-windows": "0.41.0-rc.1"
+    "react": "18.1.0",
+    "react-native": "0.70.4",
+    "react-native-windows": "0.70.12",
   },
   "devDependencies": {
-    "react": "16.0.0-alpha.6",
-    "react-native": "^0.44.1",
-    "react-native-windows": "0.41.0-rc.1"
+    "react": "18.1.0",
+    "react-native": "0.70.4",
+    "react-native-windows": "0.70.12",
   },
   "dependencies": {
     "lodash": "^4.17.11"
